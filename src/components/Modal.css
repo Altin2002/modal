@@ -37,11 +37,50 @@
     flex-direction: column;
 }
 
-.body div {
+.content {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgb(33, 109, 201);
 }
+
+.color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.color span {
+    margin-left: 20px;
+    width: 55px;
+    height: 25px;
+    border-radius: 5px;
+    /* background-color: brown; */
+}
+
+.fontCol {
+    background-color: #444444;
+}
+
+.bgCol {
+    background-color: #FFFFFF;
+    border: 1px solid black;
+}
+
+.btnCol {
+    background-color: #2072EF;
+}
+
+.borderCol {
+    background-color: #2072EF;
+}
+
+.mouseOverCol {
+    background-color: #0053D1;
+}
+
+
 
 .footer {
     display: flex;
@@ -53,10 +92,12 @@
     margin-right: 15px;
     padding: 10px 25px;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .footer .save {
     padding: 10px 25px;
     background-color: rgb(33, 109, 201);
     color: white;
+    cursor: pointer;
 }
